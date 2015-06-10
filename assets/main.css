@@ -1,0 +1,78 @@
+body {
+  background-color: #fd9939;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+#nav-header {
+  background-color: #E67B00;
+  height: 50px;
+  font-size: 34px;
+  font-weight: lighter;
+  padding-left: 25px;
+  position: fixed;
+  width: 100%
+}
+
+/* Visited links under #nav-header */
+#nav-header a, a:visited {
+  text-decoration: none;
+}
+
+#main-container {
+  width: 100%;
+  background-color: #fd9939;
+}
+
+#logo-image {
+  width: 100%;
+  max-width: 900px;
+}
+
+#headline-text {
+  font-size: 30px;
+  padding: 25px;
+}
+
+#narrative-text {
+  font-size: 24px;
+  font-weight: lighter;
+  padding: 25px;
+}
+
+#testimony {
+  font-size: 18px;
+  color: #aaaaaa;
+  margin: 20px 0;
+}
+
+#customer-container {
+  background-color: white;
+  width: 100%;
+}
+
+.customers img {
+  padding: 25px 0;
+  max-width: 300px;
+}
+
+.row-spacer {
+  margin-top: 25px;
+}
+
+#footer {
+  background-color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+#footer a {
+  color: white;
+  margin-left: 15px;
+}
