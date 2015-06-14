@@ -23,10 +23,12 @@ body {
   text-decoration: none;
 }
 
+#hero img {
+  width: 100%;
+
+}
 #hero {
-  background-size: cover;
-  background-image: url(040610_5979-Edit.jpg);
-  height:500px;
+
 }
 #main-container {
   background-color: #fd9939;
@@ -80,4 +82,10 @@ body {
 #footer a {
   color: white;
   margin-left: 15px;
+}
+@media (min-width: 768px) {
+ #mybackground {
+   background-size: 50%, 25%, 25%;
+   background-position: 40% 20%;
+ }
 }
